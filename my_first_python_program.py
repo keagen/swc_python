@@ -1,5 +1,8 @@
 print "hello, world"
 
-print "mean is", (2+3+10)/3.
+x = 4
 
-print "hypotenuse is", (6**2 + 8**2)**(0.5)
+if x%2 == 0:
+	print "x = ", x, ", x is even"
+else:
+	print x, "x is odd"
