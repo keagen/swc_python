@@ -14,7 +14,7 @@ while (i < 43):
 	print i, b
 	i = i + 1 
 
-#other way to do this
+#other/better way to do this
 
 fac = 1
 for n in range (1, x + 1)
