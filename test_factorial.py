@@ -1,6 +1,6 @@
 def test_pass():
 	assert 1 == 1
 
-import my_functions
+import my_functions as F
 def test_factorial_simple():
-	assert my_functions.factorial(3) == 6
+	assert F.factorial(3) == 6
