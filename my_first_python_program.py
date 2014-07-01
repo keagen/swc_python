@@ -10,7 +10,6 @@ else:
 i = 1
 b = 1
 while (i < 43):
-	a = b
-	b = a * i	
+	b = b * i	
 	print i, b
 	i = i + 1 
