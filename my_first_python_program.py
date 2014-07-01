@@ -13,3 +13,10 @@ while (i < 43):
 	b = b * i	
 	print i, b
 	i = i + 1 
+
+#other way to do this
+
+fac = 1
+for n in range (1, x + 1)
+	fac = fac * n
+print fac
